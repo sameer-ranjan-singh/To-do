@@ -1,0 +1,5 @@
+node_modules
+tests
+.vscode
+tests
+app.file.js
