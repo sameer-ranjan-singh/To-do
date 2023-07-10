@@ -101,7 +101,7 @@
         const title = document.getElementById("text1").value
         const description = document.getElementById("description1").value
 
-        fetch("http://localhost:3000/todos", {
+        fetch("https://to-do-yize.onrender.com/", {
             method: "POST",
             body: JSON.stringify({
                 title: title,
