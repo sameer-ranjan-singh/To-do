@@ -8,7 +8,7 @@
     }
 
     function deleteTodo(id){
-        fetch("http://localhost:3000/todos/" +id, {
+        fetch("https://to-do-yize.onrender.com/todos/" +id, {
             method: "DELETE",
             // headers: {
             //     "Content-Type": "application/json"
@@ -59,7 +59,7 @@
     }
 
     function getData() {
-        fetch("http://localhost:3000/todos", {
+        fetch("https://to-do-yize.onrender.com/todos", {
             method: "GET"
         }).then(getDataCallback)
     }
