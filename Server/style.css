@@ -38,7 +38,7 @@ body{
 
 
 .HippoCampus{
-    padding-left: 0px;
+    /* padding-left: 0px; */
     margin:0px;
     justify-content: end;
     text-align: end;
@@ -76,16 +76,17 @@ body{
     padding-top: 20px ;
     background-color: #f1faee;
     color: #8d99ae;
+    margin: 10px;
 }
 .insideTodo-div{
  margin: 10px; 
 }
 
 .input{
-    width: 100%;
-    height: 40px;
+    width: 80%;
+    height: 30px;
     font-size: large;
-    border:1px solid #303030;
+    border:2px solid #303030;
     background-color:#f1e6e8 ;
     
 }
@@ -94,25 +95,29 @@ body{
 }
 
 #text1[type=text]:focus{
-    transition: width 0.2s ease-in-out;
-    width: 150%;
+    transition: width 0.2s ease-out ;
+    width: 120%;
 }
  #description1[type=text]:focus{
     transition: width 0.4s ease-in-out;
-    width: 150%;    
+    width: 120%;   
+    height: 35px; 
 } 
 .submit{
-    border: none;
+    /* border: none; */
     background-color: #f1faee;
     border: 2px solid rgb(75, 72, 72);
     padding: 6px;
     font-size: large;
-    margin-bottom:30px ;
+    border-radius: 10px 0px 10px 0px;
 }
 .submit:hover{
-    transition: 0.5s;
+    transition: 0.2s ;
     background-color: #ef233c;
     color: #f1faee;
+    box-shadow: 1px 1px  20px  #ef233c;
+    border: 2px solid #ef233c;
+    border-radius: 20px;
 }
 
 #mainArea{
@@ -147,7 +152,7 @@ body{
 .mA-Gchild-description{
     padding-left: 5px;
     background-color: #778da9;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 10px 0px 10px;
     margin: 5px;
     border-radius:0px 0px 10px 10px;
     min-height: 120px;

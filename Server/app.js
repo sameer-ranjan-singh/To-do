@@ -101,7 +101,7 @@
         const title = document.getElementById("text1").value
         const description = document.getElementById("description1").value
 
-        fetch("https://to-do-yize.onrender.com/", {
+        fetch("https://to-do-yize.onrender.com/todos", {
             method: "POST",
             body: JSON.stringify({
                 title: title,
